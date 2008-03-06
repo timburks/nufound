@@ -1,0 +1,13 @@
+
+To regenerate the build files with autoconf/automake,
+run the following command:
+
+% autoreconf --install
+
+The two primary source files are 
+	configure.ac
+	Makefile.am
+
+To clean up, use:
+
+% make distclean
