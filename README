@@ -21,6 +21,8 @@ open source license.
 
 5. NuFound will continue to be enhanced until it satisfies all requirements.
 
+But in its current state, NuFound supports a fully-functional build of Nu.
+
 
 LICENSE
 
@@ -33,8 +35,18 @@ INSTALLATION
 ./configure
 make
 sudo make install
+sudo cp -r Foundation /usr/local/include
+
+(Sorry about that last step; if someone would help me get it into the autotools 
+Makefiles I would greatly appreciate it!)
 
 
+ACKNOWLEDGEMENTS
+
+Many (many many!) thanks to  Mircea Oancea, Ovidiu Predescu, and Helge Hess
+for sharing their work on libFoundation.
+	
+	
 APPENDIX: Autoconf/Automake notes
 
 To regenerate the build files with autoconf/automake,
