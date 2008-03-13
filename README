@@ -1,4 +1,42 @@
 
+This is NuFound, a revision of the libFoundation library for use with Nu.
+
+
+ABOUT
+
+Forked mainly for expedience, NuFound contains a few bug fixes and 
+enhancements that make NuFound look more like the Apple Foundation classes.
+But there are many missing features, so in the future, one or more of
+the following may happen, in no particular order of preference:
+
+1. the GNUstep base library will be updated for use with Nu instead of NuFound.
+
+2. the Cocotron project will be updated so that it can be built and used
+with the "stock" GCC and libobjc on Linux.
+
+3. NuFound will remerge into a revived libFoundation project.
+
+4. a mature corporate Foundation library will be released under an acceptable
+open source license.
+
+5. NuFound will continue to be enhanced until it satisfies all requirements.
+
+
+LICENSE
+
+NuFound is released under the Apache Public License, v. 2.0.
+libFoundation is available under a more liberal original license.
+
+
+INSTALLATION
+
+./configure
+make
+sudo make install
+
+
+APPENDIX: Autoconf/Automake notes
+
 To regenerate the build files with autoconf/automake,
 run the following command:
 
