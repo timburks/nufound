@@ -31,7 +31,7 @@
 #include <Foundation/NSObject.h>
 
 #ifndef LONG_LONG_MAX
-# define LONG_LONG_MAX	(((unsigned long long)-1) >> 1)
+# define LONG_LONG_MAX	(__LONG_LONG_MAX__)
 #endif
 
 #ifndef LONG_LONG_MIN
