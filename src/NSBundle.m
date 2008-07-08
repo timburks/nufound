@@ -350,7 +350,7 @@ static void load_callback(Class class, Category* category)
 	}
     }
     else {
-	fprintf(stderr, "has no exe\n");
+//	fprintf(stderr, "has no exe\n");
 	if (!useGNUstepEnv || isFlattened) {
 	    tmp = [fullPath lastPathComponent];
 	    tmp = [tmp stringByDeletingPathExtension];
